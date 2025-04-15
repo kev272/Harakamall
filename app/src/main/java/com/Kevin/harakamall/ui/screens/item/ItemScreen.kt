@@ -113,7 +113,7 @@ fun ItemScreen(navController: NavController) {
         )
         //End of search bar
         Spacer(modifier = Modifier.height(20.dp))
-
+//vertical scroll code
         Column (modifier = Modifier.verticalScroll(rememberScrollState())){//Row
             Row() {
                 Image(

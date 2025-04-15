@@ -29,6 +29,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.Kevin.harakamall.R
 import com.Kevin.harakamall.navigation.ROUT_ITEM
+import com.Kevin.harakamall.navigation.ROUT_LOGIN
 import com.Kevin.harakamall.ui.theme.Orange40
 
 @Composable
@@ -61,7 +62,7 @@ Column (
 
     Button(
         onClick = {
-            navController.navigate(ROUT_ITEM)},
+            navController.navigate(ROUT_LOGIN)},
         colors = ButtonDefaults.buttonColors(Orange40),
         shape = RoundedCornerShape(10.dp),
         modifier = Modifier.fillMaxWidth().padding(start = 20.dp, end = 20.dp)
