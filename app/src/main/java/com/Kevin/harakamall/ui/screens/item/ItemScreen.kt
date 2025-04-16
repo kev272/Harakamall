@@ -90,7 +90,7 @@ fun ItemScreen(navController: NavController) {
         )
         //end of topapp bar
         Image(
-            painter = painterResource(R.drawable.home),
+            painter = painterResource(R.drawable.tree),
             contentDescription = "Home",
             modifier = Modifier.fillMaxWidth().height(200.dp),
             contentScale = ContentScale.FillWidth

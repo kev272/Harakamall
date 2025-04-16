@@ -53,7 +53,7 @@ Column (
     )
 //circular image
     Image(
-        painter = painterResource(R.drawable.home),
+        painter = painterResource(R.drawable.tree),
         contentDescription = "home",
         modifier = Modifier.size(300.dp).clip(shape = CircleShape)
     )

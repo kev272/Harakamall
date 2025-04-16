@@ -179,9 +179,9 @@ fun RegisterScreen(
             modifier = Modifier
                 .fillMaxWidth()
                 .height(50.dp)
-                .background(
+                .background(//for joining two colors
                     brush = Brush.horizontalGradient(
-                        colors = listOf(Color(0xFF00C6FF), Color(0xFF0072FF))
+                        colors = listOf(Color(0xFFFF0099), Color(0xFF0072FF))
                     ),
                     shape = MaterialTheme.shapes.medium
                 ),
